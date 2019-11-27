@@ -8,19 +8,7 @@ SOURCE_SYSTEM               |  text(30)       |  Name of or other identifier for
 
 
 
-NWCG_REPORTING_AGENCY       |  text(255)      |  Active National Wildlife Coordinating Group (NWCG) 
-                            |                 |  Unit Identifier for the agency preparing the fire report 
-                            |                 |  (BIA = Bureau of Indian Affairs, 
-                            |                 |  BLM = Bureau of Land Management, 
-                            |                 |  BOR = Bureau of Reclamation, 
-                            |                 |  DOD = Department of Defense, 
-                            |                 |  DOE = Department of Energy, 
-                            |                 |  FS = Forest Service, 
-                            |                 |  FWS = Fish and Wildlife Service, 
-                            |                 |  IA = Interagency Organization, 
-                            |                 |  NPS = National Park Service, 
-                            |                 |  ST/C&L = State, County, or Local Organization
-                            |                 |  TRIBE = Tribal Organization)
+NWCG_REPORTING_AGENCY       |  text(255)      |  Active National Wildlife Coordinating Group (NWCG)  Unit Identifier for the agency preparing the fire report  (BIA = Bureau of Indian Affairs,  BLM = Bureau of Land Management,  BOR = Bureau of Reclamation,   DOD = Department of Defense,  DOE = Department of Energy,  FS = Forest Service,  FWS = Fish and Wildlife Service,  IA = Interagency Organization,  NPS = National Park Service,  ST/C&L = State, County, or Local Organization  TRIBE = Tribal Organization)
 
 NWCG_REPORTING_UNIT_ID      |  text(255)      |  Active NWCG Unit Identifier for the unit preparing the fire report.
 
