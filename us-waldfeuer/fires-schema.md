@@ -27,7 +27,7 @@ STAT_CAUSE_CODE             |  float64        |  Code for the (statistical) caus
 STAT_CAUSE_DESCR            |  text(100)      |  Description of the (statistical) cause of the fire.
 CONT_DATE                   |  realdate       |  Date on which the fire was declared contained or otherwise controlled (mm/dd/yyyy where mm=month, dd=day, and yyyy=year).
 CONT_TIME                   |  text(4)        |  Day of year on which the fire was declared contained or otherwise controlled.
-FIRE_SIZE                   |  float64        |  Time of day that the fire was declared contained or otherwise controlled (hhmm where hh=hour, mm=minutes).
+FIRE_SIZE                   |  float64        |  Fize size in acres
 FIRE_SIZE_CLASS             |  text(1)        |  Estimate of acres within the final perimeter of the fire. Code for fire size based on the number of acres within the final fire perimeter expenditures A=greater than 0 but less than or equal to 0.25 acres B=0.26-9.9 acres C=10.0-99.9 acres D=100-299 acres E=300 to 999 acres F=1000 to 4999 acres G=5000+ acres
 LATITUDE                    |  float64        |  Latitude (NAD83) for point location of the fire (decimal degrees)
 LONGITUDE                   |  float64        |  Longitude (NAD83) for point location of the fire (decimal degrees).
