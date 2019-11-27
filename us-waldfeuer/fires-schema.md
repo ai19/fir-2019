@@ -1,18 +1,13 @@
 Field Name                  |  SQL Type       |  Description
 ----------------------------|-----------------|-------------------------
-OBJECTID                    |  integer        |  Internal Object ID
-                            |  primary key    | 
-                            |  autoincrement  |  
-                            |  not null,      |
-----------------------------|-----------------|-------------------------
+OBJECTID                    |  integer  primary key   autoincrement  not null,      |
 FOD_ID                      |  int32          |  Global unique identifier
-----------------------------|-----------------|-------------------------
 FPA_ID                      |  text(100)      |  Unique identifier that contains information necessary to track back to the original record in the source dataset
-----------------------------|-----------------|-------------------------
 SOURCE_SYSTEM_TYPE          |  text(255)      |  Type of source database or system that the record was drawn from (federal, nonfederal, or interagency)
-----------------------------|-----------------|-------------------------
 SOURCE_SYSTEM               |  text(30)       |  Name of or other identifier for source database or system that the record was drawn from
-----------------------------|-----------------|-------------------------
+
+
+
 NWCG_REPORTING_AGENCY       |  text(255)      |  Active National Wildlife Coordinating Group (NWCG) 
                             |                 |  Unit Identifier for the agency preparing the fire report 
                             |                 |  (BIA = Bureau of Indian Affairs, 
@@ -50,7 +45,6 @@ ICS_209_NAME                |  text(255)      |  Name of the incident, from the 
 MTBS_ID                     |  text(255)      |  Incident identifier, from the MTBS perimeter dataset.
 ----------------------------|-----------------|-------------------------
 MTBS_FIRE_NAME              |  text(50)       |  Name of the incident, from the MTBS perimeter dataset.
-----------------------------|-----------------|-------------------------
 COMPLEX_NAME                |  text(255)      |  Name of the complex under which the fire was ultimately managed, when discernible.
 ----------------------------|-----------------|-------------------------
 FIRE_YEAR                   |  int16          |  Calendar year in which the fire was discovered or confirmed to exist.
